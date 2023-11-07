@@ -1,0 +1,49 @@
+.sec-one-bg {
+  background-image: url('../../img/effect/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.create {
+  width: 132px;
+}
+.dblock {
+  display: none;
+  /* d-flex align-items-center justify-content-between */
+}
+.homeCon {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .dblock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dlock1 {
+    display: none;
+  }
+  .homeCon {
+    margin: 1rem !important;
+  }
+}
+.xzsa {
+  z-index: 999;
+}
+
+.slick-prev {
+    left: -52px !important;
+  }
+  
+  .slick-next:before,
+  .slick-prev:before {
+    content: "" !important;
+  }
+  .next-slick-arrow,
+  .prev-slick-arrow {
+    color: #000000;
+    font-size: 48px;
+  }
+
+  /* .MobileView {
+    display:none;
+  } */

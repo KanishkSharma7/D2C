@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="title" content="Raroin"/>
+        <meta name="keywords" content="bootstrap, creabik, ThemeForest, bootstrap5, agency theme, saas theme, sass, html5"/>
+        <meta name="robots" content="index, follow"/>
+        <meta name="language" content="English"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="theme-color" content="#ffffff"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="theme-color" content="#000000"/>
+
+        <meta name="description" content="Web site created using create-react-app"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+
+        <link rel="stylesheet" href="./css/style.css"/>
+
+        <link rel="stylesheet" href="./css/plugins/remixicon.css"/>
+        <link rel="stylesheet" href="./fonts/circularfont.css"/>
+        <link rel="stylesheet" href="./css/globalCustom.css"/>
+        <link rel="stylesheet" href="./css/plugins/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/plugins/swiper-bundle.min.css"/>
+
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+
+        <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css"/>
+        <link
+        rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/2.1.0/react-bootstrap.js"
+         integrity="sha512-2hePzLZ987IRfEH/8y+86MWARKCuEY6oRxXcw6Wyyp/RN/Ls/Z7buI8souLtq3v6KMIhP8B0iq4Uf1RlzXC/TA==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/2.1.0/react-bootstrap.min.js" integrity="sha512-LjAJnQQmUtNPQUBhpK+63yU97k5EQoD7dIAt3CpeSfxtDuUqYrZ76vQiPV5wDPhAjF3KjkndnoCfGBA5zn44uQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="./js/swiper-bundle.min.css"/>
+        <title>DtoC-Direct to Creator</title>
+    </head>
+
+    <body class="body">
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/gsap.min.js"></script>
+        <script src="./js/jquery-3.6.0.js"></script>
+        <script src="./js/nft.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/ScrollTrigger.min.js"></script>
+        <script src="./js/sticky-sidebar.js"></script>
+        <script src="./js/swiper-bundle.min.js"></script>
+        <script>
+            $(".dark").on('click', function (e) {
+                $(".body").addClass("is__dark")
+                $(".light").removeClass("is_active")
+                $(".dark").addClass("is_active")
+                document.getElementById("logo_js").src = "assets/img/logos/Logo_white.svg";
+                document.getElementById("logo_js_f").src = "assets/img/logos/Logo_white.svg";
+
+            });
+            $(".light").on('click', function (e) {
+                $(".body").removeClass("is__dark")
+                $(".light").addClass("is_active")
+                $(".dark").removeClass("is_active")
+                document.getElementById("logo_js").src = "assets/img/logos/Logo.svg";
+                document.getElementById("logo_js_f").src = "assets/img/logos/Logo.svg";
+            });
+        </script>
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    </body>
+
+</html>

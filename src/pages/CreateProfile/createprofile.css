@@ -1,0 +1,8 @@
+.txtarea{
+    min-height: 150px;
+}
+.createP-bg{
+    background-image: url(../../img/bg/log.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}

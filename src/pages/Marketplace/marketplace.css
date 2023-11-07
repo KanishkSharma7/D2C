@@ -1,0 +1,42 @@
+.sort {
+    display: none;
+}
+
+.Marketplace_container{
+    margin: 3em;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 430px){
+    
+.Marketplace_container{
+    margin: 1.2em;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+}
+@media screen and (max-width: 380px){
+
+.Marketplace_container{
+    margin: 1em;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+}
+@media screen and (max-width: 330px){
+
+.Marketplace_container{
+    /* margin: 1em; */
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+}

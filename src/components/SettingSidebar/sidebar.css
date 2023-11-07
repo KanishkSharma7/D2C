@@ -1,0 +1,32 @@
+.container {
+    padding: 1.3rem;
+    /* height: 100%; */
+}
+.container .header {
+    font-size: 12px;
+    font-weight: 500;
+}
+.sidebarLink{
+    /* list-style: none; */
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+    /* background-color: aqua; */
+    /* border-radius: 12px solid transparent; */
+}
+.sidebarLink:hover{
+    background-color: grey;
+    /* border-radius: 12px solid transparent; */
+    /* border: 12px; */
+    color: white;
+}
+.sidebarLink:focus .isActive {
+    color:red;
+}
+
+.sidebarHead{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: dark;
+    display: flex;
+}

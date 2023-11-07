@@ -1,0 +1,102 @@
+.edit_settings_main{
+    border-radius: 1px solid gray;
+}
+.edit_settings_Toggle{
+    display: none;
+}
+.edit_settings_main:hover + .edit_settings_Toggle{
+    display:block;
+}
+.edit_settings_Toggle:hover {
+    display:block;
+}
+
+.Profile_container_card {
+  margin: 3em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#uncontrolled-tab-example-tab-Created.nav-link.active{
+  color: #fff !important;
+  /* background-color: red !important; */
+}
+#uncontrolled-tab-example-tab-Owned.nav-link.active{
+  color: #fff !important;
+  /* background-color: red !important; */
+}
+#uncontrolled-tab-example-tab-Collections.nav-link.active{
+  color: #fff !important;
+}
+#uncontrolled-tab-example-tab-Activity.nav-link.active{
+  color: #fff !important;
+}
+
+.is__dark #uncontrolled-tab-example-tab-Created.nav-link{
+  /* color: #fff !important; */
+  background-color: #183b56 !important;
+}
+.is__dark #uncontrolled-tab-example-tab-Owned.nav-link{
+  background-color: #183b56 !important;  
+}
+.is__dark #uncontrolled-tab-example-tab-Collections.nav-link{
+  color: #fff !important;
+  background-color: #183b56 !important;  
+}
+.is__dark #uncontrolled-tab-example-tab-Created.nav-link.active{
+  /* color: #fff !important; */
+  background-color: gray !important;
+}
+.is__dark #uncontrolled-tab-example-tab-Owned.nav-link.active{
+  background-color: gray !important;  
+}
+.is__dark #uncontrolled-tab-example-tab-Collections.nav-link.active{
+  color: #fff !important;
+  background-color: gray !important;  
+}
+.is__dark #uncontrolled-tab-example-tab-Activity.nav-link{
+  color: #fff !important;
+  background-color: #183b56;
+}
+.is__dark #uncontrolled-tab-example-tab-Activity.nav-link.active{
+  /* color: #000 !important; */
+  background-color: gray;
+}
+@media screen and (max-width: 430px) {
+  .Profile_container_card {
+    margin: 1.2em;
+    /* display: flex; */
+    /* flex-wrap: inherit; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  .avatar_wrap{
+    margin: 2rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .Profile_container_card {
+    margin: 1em;
+    /* display: flex; */
+    /* flex-wrap: inherit; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar_wrap{
+    margin: 2rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  .Profile_container_card {
+    margin: 1em;
+    /* display: flex; */
+    /* flex-wrap: inherit; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  .avatar_wrap{
+    margin: 0rem 2rem;
+  }
+}
+

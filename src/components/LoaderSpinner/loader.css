@@ -1,0 +1,52 @@
+.fp-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #5e5e5ebb;
+
+}
+.fp-container .fp-loader{
+    top: 30%;
+    left: 45%;
+    z-index: 1000;
+    position: absolute;
+}
+.fp-loader-txt{
+    text-align: justify;
+    justify-content: center;
+    top:50%;
+    left: 35%;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: 600;
+    color:rgb(255, 175, 2);
+    z-index: 1000;
+    position: absolute;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .fp-container .fp-loader{
+        top: 30%;
+        left: 25%;
+        z-index: 1000;
+        position: absolute;
+    }
+    .fp-loader-txt{
+        text-align: justify;
+        justify-content: center;
+        top:50%;
+        left: 15%;
+        right: 10%;
+        margin-top: 30px;
+        font-size: large;
+        font-weight: 600;
+        color:rgb(255, 175, 2);
+        z-index: 1000;
+        position: absolute;
+    }
+}

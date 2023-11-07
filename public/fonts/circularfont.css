@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "circular";
+    src: url('Circular-Bold.ttf') format('truetype'); /* IE9*/
+    src: url('circular.ttf');
+    src: url('CircularStd-Bold.svg') format('svg'), /* IE6-IE8 */
+    url("CircularStd-Bold.woff2") format("woff2"),
+    url("CircularStd-Bold.woff") format("woff"),
+    url('CircularStd-Regular.svg') format('svg'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('CircularStd-Regular.woff2') format('woff2'),
+    url('CircularStd-Regular.woff') format('woff'); /* iOS 4.1- */
+    font-display: swap;
+  }
+
+  [class^="ci-"], [class*=" ci-"] {
+    font-family: 'circular' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.ci-lg { font-size: 1.3333em; line-height: 0.75em; vertical-align: -.0667em; }
+.ci-xl { font-size: 1.5em; line-height: 0.6666em; vertical-align: -.075em; }
+.ci-xxs { font-size: .5em; }
+.ci-xs { font-size: .75em; }
+.ci-sm { font-size: .875em }
+.ci-1x { font-size: 1em; }
+.ci-2x { font-size: 2em; }
+.ci-3x { font-size: 3em; }
+.ci-4x { font-size: 4em; }
+.ci-5x { font-size: 5em; }
+.ci-6x { font-size: 6em; }
+.ci-7x { font-size: 7em; }
+.ci-8x { font-size: 8em; }
+.ci-9x { font-size: 9em; }
+.ci-10x { font-size: 10em; }
+.ci-fw { text-align: center; width: 1.25em; }
+.ci-bold{
+    font-weight: bold;
+}

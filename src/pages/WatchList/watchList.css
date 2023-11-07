@@ -1,0 +1,9 @@
+.border-dark-color{
+    border-bottom: 2.5px solid #183b56;
+    margin: 0px;
+    
+}
+.border-bottom-subheader{
+    border-bottom:1px solid gray;
+    padding: 0px;
+}

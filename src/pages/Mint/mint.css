@@ -1,0 +1,17 @@
+.btn-upload {
+    color: white;
+}
+.btn-upload :hover {
+    color: rgb(255, 255, 255);
+}
+.sp-bottom{
+    padding-bottom: 50px;
+}
+
+.bgs{
+    background-image: url(../../img/bg/log.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

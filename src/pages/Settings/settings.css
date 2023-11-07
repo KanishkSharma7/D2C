@@ -1,0 +1,52 @@
+.sidebar {
+  width: 23%;
+}
+@media screen and (max-width: 770px) {
+  .sidebar {
+    display: none;
+  }
+}
+.container {
+  padding: 1.3rem;
+  position: static !important;
+}
+
+.sidebar {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  bottom: 0;
+}
+.container .header {
+  font-size: 12px;
+  font-weight: 500;
+}
+.sidebarLink {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: gray;
+  width: 100%;
+
+}
+.sidebarLink:hover {
+  background-color: grey;
+  color: rgb(41, 40, 40);
+  width: 100%;
+}
+.is__dark .sidebarLink:hover {
+  background-color: grey;
+  color: red;
+}
+
+.sidebarHead {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: dark;
+  display: flex;
+}
+
+.is__dark .StickySidebar {
+  background: #183b56 !important;
+  color: white;
+}

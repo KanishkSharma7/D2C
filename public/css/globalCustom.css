@@ -1,0 +1,87 @@
+.al-left {
+  text-align: left;
+}
+.al-center {
+  text-align: center;
+}
+.btn-color-white {
+  color: white;
+}
+.btn-color-white:hover {
+  color: rgb(3, 3, 3);
+}
+.metamask-wallet-connect {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.footer-title-sp {
+  padding-left: 2rem;
+}
+.sp-bottom {
+  padding-bottom: 50px;
+}
+.sp-bottom2x {
+  padding-bottom: 100px;
+}
+.mr-top{
+  margin-top: 50px;
+}
+.mr-top2x{
+  margin-top: 100px;
+}
+.mr-bottom{
+  margin-top: 50px;
+}
+.mr-bottom2x{
+  margin-top: 100px;
+}
+
+.sp-top {
+  padding-top: 50px;
+}
+.sp-top2x {
+  padding-top: 100px;
+}
+.sp-top3x {
+  padding-top: 150px;
+}
+.sp-bottom3x {
+  padding-bottom: 150px;
+}
+.uploadBg {
+  background-color: #f3f3f3;
+}
+.uploadBg-blue{
+  background: #f3f3f3;
+}
+.btn-like{
+  background-color: transparent;
+  outline: none;
+  border:none;
+}
+.sp-top-1{
+  padding-top: 25px;
+}
+.mr-left{
+  margin-left: 15px;
+}
+.mr-right{
+  margin-right: 15px;
+}
+.btn-pd{
+  padding: 6px 16px;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.btn-pd:hover{
+ color: rgb(127, 240, 255);
+}
+.cur{
+  cursor: pointer;
+}
